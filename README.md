@@ -2,7 +2,7 @@
 Email templates made in html and inline css.
 Promotions Template - Revista - Newsletter
 
-### Find Them on my website
+## Find Them on my website
 https://joaquinreynoso.vercel.app/services
 <br>
 <br>
