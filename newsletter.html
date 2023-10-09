@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {box-sizing: border-box;}
+        .aside{min-width: 100px;background-color: #428fc2;color: #fff;}.aside div{border-bottom: solid 4px #fff;}
+        /*fonts*/
+        h1, h2, h3 {font-weight: bold;text-transform: uppercase;font-family: 'Courier New', Courier, monospace;margin: 0;text-align: left;}
+        h1 {font-size:3em;}h2 {font-size: 2em;padding-top: 20px;}h3{font-size: .85em;color: #6ca01f;}
+        p {font-size: 13px;font-weight: lighter;}a {font-size: 13px;color: #000;text-decoration: none;}a:hover {text-decoration: underline;}
+        /*multiline green decoration */
+        .decoration{position: relative;}.decoration span{position: absolute;top: 0;right: 0;width: 100%;}.decoration span div {color: #006400;background-color: #006400;height: 7px;width: 100%;margin-bottom: 7px;overflow: hidden;}
+        /*datacells from thead & tbody*/ th {height: 185px;padding: 0 15px 15px;}td{padding: 0 15px 15px;}
+        /*double columns*/
+        .d-column {column-gap: 20px;column-count:2}@media(max-width:550px){.d-column{column-count:1;}}
+        table {width:700px;position: relative;overflow: hidden;margin:0 auto;}
+        table::before {position: absolute;content:attr(id);top: 5%;right: 10%;color: #fff;font-size: 30px;font-weight: bold;z-index: -1;text-shadow:2px 2px 5px #000;}
+    </style>
+</head>
+<body style="background-color:#efefef;">
+<main >
+    <table id="1">
+        <thead>
+            <th>
+                <h1>Sights on Business</h1>
+                <h3><span>issue no .28</span> | <span>september-october 2023</span> | <span>volume 2</span></h3>
+            </th>
+            <th class="decoration"><span><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div></span></th>
+        </thead>
+        <tbody>
+            <td>
+                <img style="width:100%;" src="https://i.ibb.co/MBKZHjc/business.png" alt="business" border="0">
+                <h2>Why is this a big opportunity?</h2>
+                <small style="color: #428fc2;">Let's talk about it</small>
+                <p class="d-column">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae doloremque libero vitae rerum eos nihil. Veniam culpa laborum aperiam nesciunt exercitationem vel incidunt excepturi doloribus ratione quisquam neque inventore, dolorem provident ipsa saepe quae voluptates mollitia omnis officia ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae qui officia ullam repudiandae vitae sequi cumque atque ad! Veritatis iure explicabo quas quos, praesentium in velit impedit rerum dignissimos animi consequatur sint quae repellat fugit, mollitia natus deleniti voluptas dicta sed dolorem? Neque incidunt iusto animi illum officiis ex quidem optio. Tempore necessitatibus officia quaerat, qui harum voluptates quisquam tenetur itaque odio sapiente praesentium ex alias error illum quidem molestiae iusto quia amet blanditiis quibusdam odit voluptas dignissimos? <a href="#2" style="font-weight: bold;"> Vitae consequatur ut quibusdam aperiam est beatae consequuntur</a> sequi modi adipisci accusantium dolor, voluptate ratione doloribus sint quis quasi! Magnam, eaque.</p>
+            </td>
+            <td class="aside">
+                <div>
+                    <h2>Last Article</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus, temporibus maiores corrupti perferendis.<nav><a href="#1"> (Read on website)</a></nav></p>
+                </div>
+                <div>
+                    <h2>plans</h2>
+                    <p>Lorem ipsum dolor sit amet adipisicing elit. Temporibus libero optio cumque non corrupti perferendis possimus corporis.<nav><a href="#2"> (Cont. Page 2)</a></nav></p>
+                </div>
+                <div>
+                    <h2>limitations</h2>
+                    <small>& possible solutions</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus, temporibus maiores libero perferendis possimus corporis.<nav><a href="#3"> (Cont. Page 3)</a></nav></p>
+                </div>
+            </td>
+        </tbody>
+    </table><div style="height: 12px;background:#454545;"></div>
+
+    <table id="2">
+        <thead>
+            <th class="decoration"><span><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div></span></th>
+            <th>
+                <h1>Sights on - plans</h1>
+                <h3><span>Page 2</span> | <span>Long term plans & oportunities</span></h3>
+            </th>
+        </thead>
+        <tbody>
+            <td class="aside">
+                <div>
+                    <h2>fair</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus, temporibus maiores corrupti perferendis possimus corporis.<a href="#2"> (Cont. Page 2)</a></p>
+                </div>
+                <div>
+                    <h2>excursions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus maiores libero optio cumque non corrupti perferendis possimus corporis.<a href="#3"> (Cont. Page 3)</a></p>
+                </div>
+                <div>
+                    <h2>abroad</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus, temporibus maiores libero perferendis possimus corporis.<a href="#1"> (Cont. Page 1)</a></p>
+                </div>
+            </td>
+            <td>
+                <img style="width:100%" src="https://i.ibb.co/PW2HKc8/discount.jpg" alt="discount" border="0">
+                <h2>The government approach to this problem</h2>
+                <small style="color: #428fc2;">Why this plan will succed, where other nations failed?</small>
+                <p class="d-column">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae doloremque libero vitae rerum eos nihil. Veniam culpa laborum aperiam nesciunt exercitationem vel incidunt excepturi doloribus ratione quisquam neque inventore, dolorem provident ipsa saepe quae voluptates mollitia omnis officia ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae qui officia ullam repudiandae vitae sequi cumque atque ad! Veritatis iure explicabo quas quos, praesentium in velit impedit rerum dignissimos animi consequatur sint quae repellat fugit, mollitia natus deleniti voluptas dicta sed dolorem? Neque incidunt iusto animi illum officiis ex quidem optio. Tempore necessitatibus officia quaerat, qui harum voluptates quisquam tenetur itaque odio sapiente praesentium ex alias error illum quidem molestiae iusto quia amet blanditiis quibusdam odit voluptas dignissimos? <a href="#2" style="font-weight: bold;"> Vitae consequatur ut quibusdam aperiam est beatae consequuntur</a> sequi modi adipisci accusantium dolor, voluptate ratione doloribus sint quis quasi! Magnam, eaque.</p>
+            </td>
+        </tbody>
+    </table><div style="height: 12px;background:#454545;"></div>
+
+    <table id="3">
+        <thead>
+            <th>
+                <h1>Sights on - solutions</h1>
+                <h3><span>page 3</span> | <span>limitations and possible solutions</span></h3>
+            </th>
+            <th class="decoration"><span><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div></span></th>
+        </thead>
+        <tbody>
+            <td>
+                <h2>The limits of this agreement</h2>
+                <small style="color: #428fc2;">How to work around this limitations?</small>
+                <p class="d-column">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae doloremque libero vitae rerum eos nihil. Veniam culpa laborum aperiam nesciunt exercitationem vel incidunt excepturi doloribus ratione quisquam neque inventore, dolorem provident ipsa saepe quae voluptates mollitia omnis officia ad? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae qui officia ullam repudiandae vitae sequi cumque atque ad! Veritatis iure explicabo quas quos, praesentium in velit impedit rerum dignissimos animi consequatur sint quae repellat fugit, mollitia natus deleniti voluptas dicta sed dolorem? Neque incidunt iusto animi illum officiis ex quidem optio. Tempore necessitatibus officia quaerat, qui harum voluptates quisquam tenetur itaque odio sapiente praesentium ex alias error illum quidem molestiae iusto quia amet blanditiis quibusdam odit voluptas dignissimos? <a href="#2" style="font-weight: bold;"> Vitae consequatur ut quibusdam aperiam est beatae consequuntur</a> sequi modi adipisci accusantium dolor, voluptate ratione doloribus sint quis quasi! Magnam, eaque.</p>
+                <img style="width:100%;" src="https://i.ibb.co/MBKZHjc/business.png" alt="business" border="0">
+            </td>
+            <td class="aside">
+                <div>
+                    <h2>fair</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus, temporibus maiores corrupti perferendis possimus corporis.<a href="#2"> (Cont. Page 2)</a></p>
+                </div>
+                <div>
+                    <h2>excursions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus maiores libero optio cumque non corrupti perferendis possimus corporis.<a href="#3"> (Cont. Page 3)</a></p>
+                </div>
+                <div>
+                    <h2>abroad</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ducimus, temporibus maiores libero perferendis possimus corporis.<a href="#1"> (Cont. Page 1)</a></p>
+                </div>
+            </td>
+        </tbody>
+    </table>
+</main>
+
+</body>
+</html>
