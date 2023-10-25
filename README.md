@@ -5,9 +5,10 @@ Promotions Template - Revista - Newsletter
 
 ### Characteristics of these templates:
 
-    Dark mode compatibility for mailing apps.
-    Perfectly display on all major email providers.
-    Multiple media query breakpoint for better mobile responsiveness.
+    - &check; Dark mode compatibility for mailing apps.
+    - &check; Perfectly display on all major email providers.
+    - &check; Multiple media query breakpoint for better mobile responsiveness.
+    - &check; Tested On various email providers with postdrop
 
 ### Find Them on my website
 https://joaquinreynoso.vercel.app/services
