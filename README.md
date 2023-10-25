@@ -8,7 +8,7 @@ Promotions Template - Revista - Newsletter
     -  Dark mode compatibility for mailing apps.
     -  Perfectly display on all major email providers.
     -  Multiple media query breakpoint for better mobile responsiveness.
-    -  Tested on various email providers with <a href="https://app.postdrop.io/">postdrop</a>
+    -  Tested on various email providers with https://app.postdrop.io/
 
 ### Find Them on my website
 https://joaquinreynoso.vercel.app/services
