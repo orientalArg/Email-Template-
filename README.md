@@ -3,7 +3,7 @@ Email templates made in html and inline css.
 Promotions Template - Revista - Newsletter
 <br><br><br>
 
-###Characteristics of these templates:
+### Characteristics of these templates:
 
     Dark mode compatibility for mailing apps.
     Perfectly display on all major email providers.
