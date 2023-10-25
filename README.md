@@ -5,7 +5,7 @@ Promotions Template - Revista - Newsletter
 
 ### Characteristics of these templates:
 
-    -  \2713 Dark mode compatibility for mailing apps.
+    -  U+02713 Dark mode compatibility for mailing apps.
     -  Perfectly display on all major email providers.
     -  Multiple media query breakpoint for better mobile responsiveness.
     -  Tested On various email providers with postdrop
