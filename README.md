@@ -16,14 +16,14 @@ https://joaquinreynoso.vercel.app/services
 
 ### Mail Demo
 
-<img src="https://github.com/orientalArg/Email-Template-/blob/main/MAIL.jpg?raw=true" alt="demo" width="600px" />
+<img src="https://github.com/orientalArg/Email-Template-/blob/main/MAIL.jpg?raw=true" alt="demo" width="450px" />
 <br><br><br>
 
 ### Revista C.
 
-<img src="https://github.com/orientalArg/Email-Template-/blob/main/revistac.png?raw=true" alt="demo" width="600px" />
+<img src="https://github.com/orientalArg/Email-Template-/blob/main/revistac.png?raw=true" alt="demo" width="450px" />
 <br><br><br>
 
 ### Newsletter
 
-<img src="https://github.com/orientalArg/Email-Template-/blob/main/newsletter.png?raw=true" alt="newsletter" width="600px" />
+<img src="https://github.com/orientalArg/Email-Template-/blob/main/newsletter.png?raw=true" alt="newsletter" width="450px" />
