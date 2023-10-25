@@ -1,5 +1,5 @@
 ## Email-Templates
-Email templates made in html and inline css.
+Email templates made in HTML and inline CSS.
 Promotions Template - Revista - Newsletter
 <br><br><br>
 
